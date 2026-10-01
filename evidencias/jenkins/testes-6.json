@@ -1,7 +1,7 @@
 {
   "_class": "hudson.tasks.junit.TestResult",
   "testActions": [],
-  "duration": 0.031293,
+  "duration": 0.041322,
   "empty": false,
   "failCount": 0,
   "passCount": 4,
@@ -13,7 +13,7 @@
           "testActions": [],
           "age": 0,
           "className": "test",
-          "duration": 0.018718,
+          "duration": 0.025721,
           "errorDetails": null,
           "errorStackTrace": null,
           "failedSince": 0,
@@ -31,7 +31,7 @@
           "testActions": [],
           "age": 0,
           "className": "test",
-          "duration": 0.005274,
+          "duration": 0.006896,
           "errorDetails": null,
           "errorStackTrace": null,
           "failedSince": 0,
@@ -49,7 +49,7 @@
           "testActions": [],
           "age": 0,
           "className": "test",
-          "duration": 0.00294,
+          "duration": 0.00367,
           "errorDetails": null,
           "errorStackTrace": null,
           "failedSince": 0,
@@ -67,7 +67,7 @@
           "testActions": [],
           "age": 0,
           "className": "test",
-          "duration": 0.003574,
+          "duration": 0.003954,
           "errorDetails": null,
           "errorStackTrace": null,
           "failedSince": 0,
@@ -82,7 +82,7 @@
           "stdout": null
         }
       ],
-      "duration": 0.031293,
+      "duration": 0.041322,
       "enclosingBlockNames": [
         "Qualidade",
         "CI"

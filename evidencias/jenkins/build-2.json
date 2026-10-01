@@ -58,19 +58,19 @@
           "buildNumber": 2,
           "buildResult": null,
           "marked": {
-            "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+            "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
             "branch": [
               {
-                "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+                "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
                 "name": "main"
               }
             ]
           },
           "revision": {
-            "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+            "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
             "branch": [
               {
-                "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+                "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
                 "name": "main"
               }
             ]
@@ -78,10 +78,10 @@
         }
       },
       "lastBuiltRevision": {
-        "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+        "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
         "branch": [
           {
-            "SHA1": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
+            "SHA1": "3ce9db782014bf4f9a6156a075ea5727db29313e",
             "name": "main"
           }
         ]
@@ -123,18 +123,16 @@
   "building": false,
   "description": null,
   "displayName": "#2",
-  "duration": 21311,
-  "estimatedDuration": 26526,
-  "executor": {
-    "_class": "hudson.model.OneOffExecutor"
-  },
+  "duration": 12997,
+  "estimatedDuration": 18769,
+  "executor": null,
   "fullDisplayName": "carparts » main #2",
   "id": "2",
   "keepLog": false,
   "number": 2,
   "queueId": 7,
   "result": "SUCCESS",
-  "timestamp": 1790618779669,
+  "timestamp": 1790819643640,
   "url": "http://localhost:8080/job/carparts/job/main/2/",
   "changeSets": [],
   "culprits": [],

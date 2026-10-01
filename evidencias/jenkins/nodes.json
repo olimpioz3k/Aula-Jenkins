@@ -25,25 +25,25 @@
       "monitorData": {
         "hudson.node_monitors.SwapSpaceMonitor": {
           "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
-          "availablePhysicalMemory": 8727994368,
+          "availablePhysicalMemory": 8714010624,
           "availableSwapSpace": 3221221376,
-          "totalPhysicalMemory": 16765374464,
+          "totalPhysicalMemory": 16765378560,
           "totalSwapSpace": 3221221376
         },
         "hudson.node_monitors.TemporarySpaceMonitor": {
           "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
-          "timestamp": 1790618729254,
+          "timestamp": 1790819598808,
           "path": "/tmp",
-          "size": 89396953088,
+          "size": 89395486720,
           "threshold": 1073741824,
           "totalSize": 154894188544,
           "warningThreshold": 2147483648
         },
         "hudson.node_monitors.DiskSpaceMonitor": {
           "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
-          "timestamp": 1790618729252,
+          "timestamp": 1790819598807,
           "path": "/var/jenkins_home",
-          "size": 89396953088,
+          "size": 89395486720,
           "threshold": 1073741824,
           "totalSize": 154894188544,
           "warningThreshold": 2147483648
@@ -51,7 +51,7 @@
         "hudson.node_monitors.ArchitectureMonitor": "Linux (amd64)",
         "hudson.node_monitors.ResponseTimeMonitor": {
           "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
-          "timestamp": 1790618729255,
+          "timestamp": 1790819598811,
           "average": 0
         },
         "hudson.node_monitors.ClockMonitor": {
@@ -100,25 +100,25 @@
       "monitorData": {
         "hudson.node_monitors.SwapSpaceMonitor": {
           "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
-          "availablePhysicalMemory": 8728674304,
+          "availablePhysicalMemory": 8687177728,
           "availableSwapSpace": 3221221376,
-          "totalPhysicalMemory": 16765374464,
+          "totalPhysicalMemory": 16765378560,
           "totalSwapSpace": 3221221376
         },
         "hudson.node_monitors.TemporarySpaceMonitor": {
           "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
-          "timestamp": 1790618729357,
+          "timestamp": 1790819598874,
           "path": "/tmp",
-          "size": 89396928512,
+          "size": 89395486720,
           "threshold": 1073741824,
           "totalSize": 154894188544,
           "warningThreshold": 2147483648
         },
         "hudson.node_monitors.DiskSpaceMonitor": {
           "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
-          "timestamp": 1790618729354,
+          "timestamp": 1790819598874,
           "path": "/home/jenkins/agent",
-          "size": 89396928512,
+          "size": 89395486720,
           "threshold": 1073741824,
           "totalSize": 154894188544,
           "warningThreshold": 2147483648
@@ -126,12 +126,12 @@
         "hudson.node_monitors.ArchitectureMonitor": "Linux (amd64)",
         "hudson.node_monitors.ResponseTimeMonitor": {
           "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
-          "timestamp": 1790618729333,
-          "average": 78
+          "timestamp": 1790819598853,
+          "average": 43
         },
         "hudson.node_monitors.ClockMonitor": {
           "_class": "hudson.util.ClockDifference",
-          "diff": -10
+          "diff": -15
         }
       },
       "numExecutors": 1,

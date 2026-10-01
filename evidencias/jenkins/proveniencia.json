@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T18:10:36.716Z",
+  "generatedAt": "2026-10-01T01:57:21.232Z",
   "mode": "CI sem Azure",
-  "repository": "miguelsenai2024/Jenkins-Aula-6",
-  "commit": "c6fc646d92df81f8a167586cdc4963b1c9ec2966",
-  "workflow": "https://github.com/miguelsenai2024/Jenkins-Aula-6/actions/runs/36462516876"
+  "repository": "olimpioz3k/Aula-Jenkins",
+  "commit": "cc5ddacc858fee304ae4d48af94ba306eac5426e",
+  "workflow": "https://github.com/olimpioz3k/Aula-Jenkins/actions/runs/36803113195"
 }

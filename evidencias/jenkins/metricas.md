@@ -1,6 +1,6 @@
 # E6 - Medicoes reais de CI
 
-Amostra: 10 execucoes Jenkins. Duracao media: 16.51 segundos. Falhas de CI: 0/10 (0.0%).
+Amostra: 10 execucoes Jenkins. Duracao media: 11.69 segundos. Falhas de CI: 0/10 (0.0%).
 
 Essas execucoes usaram DEPLOY_AZURE=false. Duracao de CI nao e lead time ate producao; falhas de CI nao sao a taxa DORA de falhas de mudanca.
 

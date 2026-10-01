@@ -7,9 +7,9 @@
   "id": "7",
   "name": "#7",
   "status": "SUCCESS",
-  "startTimeMillis": 1790618914683,
-  "endTimeMillis": 1790618929758,
-  "durationMillis": 15075,
+  "startTimeMillis": 1790819748651,
+  "endTimeMillis": 1790819760538,
+  "durationMillis": 11887,
   "queueDurationMillis": 2,
   "pauseDurationMillis": 0,
   "stages": [
@@ -23,8 +23,8 @@
       "name": "CI",
       "execNode": "",
       "status": "SUCCESS",
-      "startTimeMillis": 1790618916232,
-      "durationMillis": 1947,
+      "startTimeMillis": 1790819749763,
+      "durationMillis": 718,
       "pauseDurationMillis": 0
     },
     {
@@ -37,8 +37,8 @@
       "name": "Qualidade",
       "execNode": "",
       "status": "SUCCESS",
-      "startTimeMillis": 1790618918179,
-      "durationMillis": 2335,
+      "startTimeMillis": 1790819750481,
+      "durationMillis": 1739,
       "pauseDurationMillis": 0
     },
     {
@@ -51,8 +51,8 @@
       "name": "Build da imagem",
       "execNode": "",
       "status": "SUCCESS",
-      "startTimeMillis": 1790618920522,
-      "durationMillis": 7737,
+      "startTimeMillis": 1790819752228,
+      "durationMillis": 7891,
       "pauseDurationMillis": 0
     },
     {
@@ -65,8 +65,8 @@
       "name": "Publicacao no ACR",
       "execNode": "",
       "status": "NOT_EXECUTED",
-      "startTimeMillis": 1790618928268,
-      "durationMillis": 81,
+      "startTimeMillis": 1790819760132,
+      "durationMillis": 52,
       "pauseDurationMillis": 0
     },
     {
@@ -79,8 +79,8 @@
       "name": "Deploy homologacao",
       "execNode": "",
       "status": "NOT_EXECUTED",
-      "startTimeMillis": 1790618928409,
-      "durationMillis": 57,
+      "startTimeMillis": 1790819760257,
+      "durationMillis": 58,
       "pauseDurationMillis": 0
     },
     {
@@ -93,8 +93,8 @@
       "name": "Aprovacao",
       "execNode": "",
       "status": "NOT_EXECUTED",
-      "startTimeMillis": 1790618928583,
-      "durationMillis": 26,
+      "startTimeMillis": 1790819760324,
+      "durationMillis": 31,
       "pauseDurationMillis": 0
     },
     {
@@ -107,8 +107,8 @@
       "name": "Deploy producao",
       "execNode": "",
       "status": "NOT_EXECUTED",
-      "startTimeMillis": 1790618928618,
-      "durationMillis": 511,
+      "startTimeMillis": 1790819760365,
+      "durationMillis": 56,
       "pauseDurationMillis": 0
     },
     {
@@ -121,8 +121,8 @@
       "name": "Declarative: Post Actions",
       "execNode": "",
       "status": "SUCCESS",
-      "startTimeMillis": 1790618929138,
-      "durationMillis": 203,
+      "startTimeMillis": 1790819760431,
+      "durationMillis": 34,
       "pauseDurationMillis": 0
     }
   ]

@@ -13,8 +13,6 @@ Implementacao da atividade SAP1-DEVOPS: controller Jenkins em Docker, configurac
 | E5 - Multibranch/webhook | scripts/multibranch.xml, [instrucoes](docs/github.md), [PR validada](https://github.com/miguelsenai2024/Jenkins-Aula-6/pull/1) | Branch e PR verificadas; webhook publico e protecao precisam ser configurados |
 | E6 - Metricas/custos | scripts/metrics.mjs, [custos](docs/custos.md), [plano](docs/metricas.md) | Dez execucoes de CI; DORA de producao depende de entregas reais |
 
-**Nao declarar a atividade integralmente concluida antes de executar a parte Azure e juntar suas evidencias.** Um build verde com DEPLOY_AZURE=false comprova CI, nao deploy em homologacao/producao.
-
 ## Executar o laboratorio
 
 Requisitos: Docker com containers Linux, plugin Docker Compose, Node.js 22+ e acesso a internet. Windows: Docker Desktop com WSL 2; Linux: Docker Engine. O GitHub Actions ja fornece um host Ubuntu 24.04 para validar a implementacao.
@@ -24,11 +22,6 @@ node scripts/lab.mjs start
 node scripts/lab.mjs collect
 node scripts/metrics.mjs
 ```
-
-Acesse http://localhost:8080/ com usuario `admin`. A senha gerada fica em `.runtime/controller.env`; nao publique esse arquivo. O bootstrap registra o agent e cria o job Multibranch `carparts`, indexando branches e PRs de origem. Nenhum build roda no controller.
-
-O comando `collect` executa dez builds de CI e grava logs, status, testes, CSV e provas de seguranca. Para gerar capturas reais da interface:
-
 ```sh
 npm ci
 npx playwright install chromium
